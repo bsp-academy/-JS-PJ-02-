@@ -1,0 +1,170 @@
+@font-face {
+    src: url('../fonts/NunitoSans-Regular.ttf');
+    font-family: "NunitoSans-Regular";
+}
+@font-face {
+    src: url('../fonts/NunitoSans-Light.ttf');
+    font-family: "NunitoSans-Regular";
+}
+@font-face {
+    src: url('../fonts/NunitoSans-Italic.ttf');
+    font-family: "NunitoSans-Italic";
+    }
+@font-face {
+    src: url('../fonts/NunitoSans-SemiBold.ttf');
+    font-family: "NunitoSans-SemiBold";
+}
+@font-face {
+    src: url('../fonts/yeseva-one-v20-cyrillic_cyrillic-ext_latin_latin-ext-regular.ttf');
+    font-family: "Yeseva One";
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'NunitoSans-Regular';
+}
+
+.hero2 {
+    background-color: #131313;
+    background-size: cover;
+    padding-top: 107px;
+    height:1000px
+}
+
+.hero2-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: auto;
+    margin-left: 134px;
+}
+
+.header2-navigation {
+    list-style: none;
+    display: flex;
+    margin:0px 0px 50px 0px;
+    padding:0px;
+}
+
+.header2-navigation_item a {
+    font-family: 'Yeseva One';
+    font-size:14px;
+    text-decoration: none;
+    color: rgba(255,255,255,0.3);
+    margin-right: 60px;
+    line-height: 19px;
+}
+
+.hero2-block-left {
+    padding-right:50px;
+} 
+.hero2-block-left h2 {
+    margin:0px;
+    padding:0px;
+    width:253px
+}
+    
+.title2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 442;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+
+.subtitle2 {
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin:34px 0px 42px 0px;
+    padding:0px;
+}
+
+.hero2-internal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-template-rows: auto;
+} 
+
+.column-left h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E3B873;
+    margin:0px;
+    left:0px;
+}
+
+.column-left p {
+    color: rgb(255, 255, 255);
+    width: 161px;
+    height: 38px;
+    font-size: 13px;
+    margin-bottom:34px;
+}
+
+.column-right h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E3B873;
+    margin:0px;
+    left:0px;
+}
+
+.column-right p {
+    color: rgb(255, 255, 255);
+    width: 115px;
+    height: 38px;
+    font-size: 13px;
+    margin-bottom:34px;
+}
+
+.service-item {
+    margin-top: 25px;
+ }
+ .service-item img.arrow-left {
+    margin-right:30px
+ }
+ .service-item img.dot {
+    margin-right:18px
+ }
+ .service-item img.arrow-right {
+    margin-left:12px
+ }
+ .service-item img {
+    margin-right:0px;
+ }
+
+
+/* Стилизация точек */
+.service-item img.dot:hover {
+    cursor: pointer;   
+  }
+  
+/* Стилизация стрелок */
+.service-item img.arrow-left:hover,
+.service-item img.arrow-right:hover {
+    cursor: pointer;
+  }
+
+/* Выделение активного заголовка */
+.header2-navigation_item a.active {
+    cursor: pointer;
+    color: #E3B873;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #E3B873;
+}
+  
+/* Выделение акивной точки */
+.service-item img.dot.active {
+    filter: drop-shadow(0px 0px 2px #ffffff);
+  }
